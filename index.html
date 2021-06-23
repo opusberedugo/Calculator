@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="plugins/fontawesome-free-5.15.3-web/css/all.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Calculator</title>
+</head>
+
+<body>
+  <h1>
+    calculator JS
+    <i class="fas fa-calculator"></i>
+  </h1>
+
+  <main>
+    <div class="calculator">
+      <div class="screen">
+        <textarea name="" id="" cols="30" rows="10" class="operation" readonly></textarea>
+        <textarea name="" id="" cols="30" rows="10" class="number" readonly></textarea>
+      </div>
+      <!-- End of screen div -->
+
+      <div class="buttons">
+
+        <div class="column1">
+          <button class="operator">C</button>
+          <button class="number">7</button>
+          <button class="number">4</button>
+          <button class="number">1</button>
+          <button class="number operator">%</button>
+        </div>
+        <!--End of column1-->
+
+        <div class="column2">
+          <button class="operator">÷</button>
+
+          <button class="number">8</button>
+          <button class="number">5</button>
+          <button class="number">2</button>
+          <button class="number">0</button>
+
+        </div>
+        <!--End of column2-->
+
+        <div class="column3">
+          <button class="operator">X</button>
+
+          <button class="number">9</button>
+          <button class="number">6</button>
+          <button class="number">3</button>
+          <button class="number">.</button>
+        </div>
+        <!--End of column3-->
+
+        <div class="column4">
+          <button class="operator"><i class="fas fa-backspace"></i></button>
+          <button class="operator">—</button>
+          <button class="operator">+</button>
+          <button class="operator db-space">=</button>
+        </div>
+        <!--End of column4-->
+
+      </div>
+      <!--End of Button-->
+
+    </div>
+    <!--End of calculator div-->
+
+
+  </main>
+  <script src="script/main.js"></script>
+</body>
+
+</html>
